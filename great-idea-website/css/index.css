@@ -72,35 +72,52 @@ h1, h2, h3, h4, h5 {
 a{
 	text-decoration:none;
 }
-.header {
-display: flex;
-justify-content: space-between;
-
-}
 
 
 .navbar {
 color:rgb(194, 194, 194);
 font-weight: 600;
 padding: 10px;
-margin: 80px;
+margin: 0px auto;
 text-align: center;
 display:inline-block;
 width:360px;
-height:20px:
+height:100px;
+vertical-align:40px;
 }
 
 .logo {
-	height:100px;
+	display:inline-block;
+	margin:0 auto;
+	height:120px;
 	width:100px;
+	vertical-align:100px;
 }
 
 h1 {
 	font-size:120px;
-	display: block;
+	display: inline-block;
 	padding:5px;
 	margin:5px;
 	width:100px;
+}
+
+.content-row img {
+display:inline-block;
+margin-top:20px;
+width:400px;
+height:400px;
+}
+
+.content-row{
+	display:inlineblock;
+	margin:0px 30px 20px 10px;
+	width:130px;
+	height:800px;
+}
+
+.content-row div {
+	margin:20px;
 }
 
 .features {
@@ -125,17 +142,6 @@ h1 {
 	margin-top: 30px;
 	width: 430px;
 	height: 100px;
-}
-
-.content-row{
-	display:inlineblock;
-	margin:0px 30px 20px 10px;
-	width:430px;
-	height;100px;
-}
-
-.content-row div {
-	margin:20px;
 }
 
 .services {
